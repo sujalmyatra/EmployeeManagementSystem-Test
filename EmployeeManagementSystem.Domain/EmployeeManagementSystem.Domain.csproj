@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+<<<<<<< HEAD
+    <TargetFramework>net10.0</TargetFramework>
+=======
+    <TargetFramework>net9.0</TargetFramework>
+>>>>>>> 02825f4025a30a1daa58adc0f0b5feac190ea3dc
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+<<<<<<< HEAD
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+=======
+>>>>>>> 02825f4025a30a1daa58adc0f0b5feac190ea3dc
+</Project>

@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+<<<<<<< HEAD
+    <TargetFramework>net10.0</TargetFramework>
+=======
+    <TargetFramework>net9.0</TargetFramework>
+>>>>>>> 02825f4025a30a1daa58adc0f0b5feac190ea3dc
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+<<<<<<< HEAD
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+=======
+    <PackageReference Include="AutoMapper" Version="16.1.1" />
+>>>>>>> 02825f4025a30a1daa58adc0f0b5feac190ea3dc
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.1" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.16">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.16">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeeManagementSystem.Application\EmployeeManagementSystem.Application.csproj" />
+    <ProjectReference Include="..\EmployeeManagementSystem.Infrastructure\EmployeeManagementSystem.Infrastructure.csproj" />
+    <ProjectReference Include="..\EmployeeManagementSystem\EmployeeManagementSystem.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

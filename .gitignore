@@ -1,0 +1,90 @@
+# Build results (all directories)
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Packages
+*.nupkg
+packages/
+
+# NuGet
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Test Results
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Publish output
+publish/
+
+# Environment files
+.env
+.env.*
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Azure
+*.azurePubxml
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# dotCover
+*.dotCover
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+
+# StyleCop
+StyleCopReport.xml
+
+# Temporary files
+tmp/
+temp/
+
+# Node modules (for Angular/React frontend)
+node_modules/
+
+# Frontend build
+dist/
+build/
+
+# Docker
+docker-compose.override.yml
+
+# Secrets
+secrets.json
+appsettings.Development.json

@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+<<<<<<< HEAD
+    <TargetFramework>net10.0</TargetFramework>
+=======
+    <TargetFramework>net9.0</TargetFramework>
+>>>>>>> 02825f4025a30a1daa58adc0f0b5feac190ea3dc
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+<<<<<<< HEAD
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+=======
+>>>>>>> 02825f4025a30a1daa58adc0f0b5feac190ea3dc
+    <PackageReference Include="coverlet.collector" Version="10.0.1">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="FluentAssertions" Version="8.10.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
+    <PackageReference Include="Moq" Version="4.20.72" />
+<<<<<<< HEAD
+    <PackageReference Include="NUnit" Version="4.3.2" />
+=======
+>>>>>>> 02825f4025a30a1daa58adc0f0b5feac190ea3dc
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeeManagementSystem.API\EmployeeManagementSystem.API.csproj" />
+    <ProjectReference Include="..\EmployeeManagementSystem.Application\EmployeeManagementSystem.Application.csproj" />
+    <ProjectReference Include="..\EmployeeManagementSystem.Infrastructure\EmployeeManagementSystem.Infrastructure.csproj" />
+    <ProjectReference Include="..\EmployeeManagementSystem\EmployeeManagementSystem.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+</Project>
